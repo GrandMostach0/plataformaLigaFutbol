@@ -4,7 +4,7 @@ function NavSection(){
     return(
         <header className="flex items-center justify-between py-4 px-10">
             <div className="flex items-center">
-                <h1 className="font-bold text-2xl">Liga de Fútbol</h1>
+                <Link to="/" className="font-bold text-2xl">Liga de Fútbol</Link>
                 <nav className="ml-10 text-base">
                     <Link className="item-Nav" to="/ligas">Ligas</Link>
                     <Link className="item-Nav" to="/equipos">Equipos</Link>
