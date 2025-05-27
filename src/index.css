@@ -1,9 +1,18 @@
 @import "tailwindcss";
 
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+@layer components{
+  .item-Nav{
+    @apply px-2 py-1 m-2;
+  }
+
+  .buttonPrimary{
+    @apply border-none px-2 py-1 m-2 rounded-lg;
+  }
 }
