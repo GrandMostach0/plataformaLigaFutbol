@@ -1,6 +1,6 @@
 function CardInforme({title, number, description}){
     return(
-        <div className="border rounded-lg text-left px-5 py-5">
+        <div className="border border-slate-400 rounded-lg text-left px-5 py-5">
             <div>
                 <p className="font-bold text-sm">{title}</p>
             </div>
