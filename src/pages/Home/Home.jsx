@@ -78,6 +78,15 @@ function Home(){
                     <TablaPuntos />
                 </section>
             </div>
+
+            <section className="division">
+                    <h1 className="title">Unete a nuestra Liga</h1>
+                    <p className="text-lg my-3">¿Quieres formar parte de nuestra comunidad? Inscribe a tu equipo en nuestras competiciones.</p>
+                    <div className="mt-10">
+                        <Link className="buttonPrincipal bg-black text-white" to="/inscripcion">Inscribe tu equipo</Link>
+                        <Link className="border py-2 px-5 rounded-lg border-slate-500" to="/contacto">Contactanos</Link>
+                    </div>
+            </section>
         </>
     )
 }

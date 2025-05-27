@@ -21,7 +21,7 @@
   }
 
   .division{
-    @apply text-center min-h-[400px] py-15 px-5 border;
+    @apply text-center min-h-[300px] py-15 px-5 border;
   }
 
   .title{
