@@ -7,8 +7,7 @@ function Layout(){
     return(
         <div>
             <NavSection/>
-            <main>
-                <h1>LAYOUT HERE 🙌</h1>
+            <main className="max-w-[1200px] m-auto border">
                 <Outlet />
             </main>
             <FooterSection/>
