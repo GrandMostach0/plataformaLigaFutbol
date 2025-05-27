@@ -7,7 +7,7 @@ function Layout(){
     return(
         <div>
             <NavSection/>
-            <main className="px-3 m-auto border">
+            <main className="px-3 m-auto">
                 <Outlet />
             </main>
             <FooterSection/>

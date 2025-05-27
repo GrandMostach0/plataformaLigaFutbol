@@ -21,7 +21,7 @@
   }
 
   .division{
-    @apply text-center min-h-[300px] py-15 px-5 border;
+    @apply text-center min-h-[400px] py-15 px-5 ;
   }
 
   .title{
@@ -37,6 +37,14 @@
   }
 
   .parrafos{
-    @apply max-w-[80%] m-auto;
+    @apply max-w-[70%] mx-auto my-5 text-lg;
+  }
+
+  .sectionFooter{
+    @apply px-2 py-4;
+  }
+
+  .sectionFooterLinks{
+    @apply block text-sm mb-1 text-slate-700;
   }
 }
