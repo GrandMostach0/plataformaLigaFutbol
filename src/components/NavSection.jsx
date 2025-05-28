@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import SunIcon from "../assets/Icons/SunIcon";
 
 function NavSection(){
     return(
@@ -13,7 +14,10 @@ function NavSection(){
                 </nav>
             </div>
 
-            <div>
+            <div className="flex items-center">
+                <button className="px-2 py-1 cursor-pointer hover:bg-slate-200 rounded-lg">
+                    <SunIcon/>
+                </button>
                 <Link className="buttonPrimary bg-slate-200" to="/inscripcion">Inscribe a tu equipo</Link>
                 <Link className="buttonPrimary bg-black text-white" to="/contacto">Contacto</Link>
             </div>
