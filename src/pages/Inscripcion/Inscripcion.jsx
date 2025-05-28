@@ -87,6 +87,13 @@ function Inscripcion(){
                     {renderContenido()}
                 </div>
             </section>
+
+            <div className="text-center mb-20 py-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help h-12 w-12 text-muted-foreground m-auto"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg>
+                <h1 className="mt-5 mb-2 text-2xl font-bold">¿Necesitas ayuda adicional?</h1>
+                <p className="text-slate-600">Nuestro equipo está disponible para resolver cualquier duda sobre el proceso de inscripción.</p>
+                <button className="my-5 border-none px-8 py-2 rounded-lg bg-slate-950 text-white">Contacta al equipo del liga</button>
+            </div>
         </div>
     )
 }

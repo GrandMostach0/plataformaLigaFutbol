@@ -9,7 +9,7 @@ const FormularioInscripcion = () => {
                 <div className="flex items-center gap-5 py-2">
                     <div className="flex-1/2">
                         <label htmlFor="nombreEquipo">Nombre del Equipo</label>
-                        <input type="text" name="nombreEquipo" />
+                        <input type="text" name="nombreEquipo" placeholder="Ej: Jorge Ramirez Uc"/>
                     </div>
                     <div className="flex-1/2">
                         <label htmlFor="fechaFundacion">Fecha Fundación</label>
