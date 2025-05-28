@@ -13,11 +13,11 @@
   }
 
   .buttonPrimary{
-    @apply border-none px-2 py-1 m-2 rounded-lg;
+    @apply border-none px-4 py-1 m-2 rounded-lg;
   }
 
   .buttonPrincipal{
-    @apply border-none py-2 px-6 m-4 rounded-lg;
+    @apply border-none py-2 px-8 m-4 rounded-lg;
   }
 
   .division{
@@ -40,11 +40,19 @@
     @apply max-w-[70%] mx-auto my-5 text-lg;
   }
 
+  .textoNormal{
+    @apply text-lg text-slate-700;
+  }
+
   .sectionFooter{
     @apply px-2 py-4;
   }
 
   .sectionFooterLinks{
     @apply block text-sm mb-1 text-slate-700;
+  }
+
+  .inputStyle{
+    @apply border px-2 rounded-lg w-[250px] border-slate-400 h-[40px];
   }
 }

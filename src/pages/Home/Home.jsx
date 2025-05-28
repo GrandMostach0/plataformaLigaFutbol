@@ -16,7 +16,7 @@ function Home(){
                 <h1 className="title">LIGA DE FUTBOL 2025 - TECOH</h1>
                 <p className="max-w-[700px] mx-auto mt-5 mb-10 text-2xl">Toda la emoción del fútbol en un solo lugar. Sigue a tu equipo favorito en todas las categorías.</p>
                 <div>
-                    <Link className="buttonPrincipal bg-black text-white" to="/partidos">Ver Pártidos</Link>
+                    <Link className="buttonPrincipal bg-black text-white" to="/partidos">Ver Partidos</Link>
                     <Link className="buttonPrincipal bg-slate-300" to="/clasificacion">Clasificación</Link>
                 </div>
             </section>
