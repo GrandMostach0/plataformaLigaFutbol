@@ -1,4 +1,3 @@
-import React from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import Layout from './components/Layout'
@@ -7,6 +6,7 @@ import Ligas from './pages/Ligas/Ligas'
 import Error404 from './components/Error404'
 import Equipos from './pages/Equipos'
 import Clasificacion from './pages/Clasificacion'
+import Inscripcion from './pages/Inscripcion/Inscripcion'
 function App() {
 
   return (
@@ -17,6 +17,7 @@ function App() {
           <Route path='/ligas' element={<Ligas />}/>
           <Route path='/equipos' element={<Equipos />}/>
           <Route path='/clasificacion' element={<Clasificacion />}/>
+          <Route path="/inscripcion" element={<Inscripcion />}/>
           <Route path='*' element={<Error404 />}/>
         </Route>
       </Routes>

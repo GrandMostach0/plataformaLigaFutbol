@@ -37,7 +37,7 @@
   }
 
   .parrafos{
-    @apply max-w-[70%] mx-auto my-5 text-lg;
+    @apply max-w-[70%] mx-auto my-5 text-lg text-slate-700;
   }
 
   .textoNormal{
