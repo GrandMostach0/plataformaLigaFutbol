@@ -6,8 +6,8 @@ function Equipos(){
 
     return(
         <>
-        <div className="text-center">
-            <h1 className="font-bold text-4xl">Equipos</h1>
+        <div className="text-center my-5 py-5">
+            <h1 className="title">Equipos</h1>
             <p className="text-lg text-slate-700">Descubre todos los equipos participantes en la liga</p>
 
             <div className="rounded-lg inline-block py-1 px-8 text-sm mt-5 bg-slate-200">

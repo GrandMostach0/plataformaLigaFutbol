@@ -50,15 +50,17 @@ function Home(){
                         </div>
                     </div>
 
-                    <CardPartido equipoLocal="Puebla" equipoVisitante="Puebla2" categoria="infantil" fecha="12 Mayo 2025" horario="15:00" ubicacion="Estadio Municipal"/>
+                    <div className="grid grid-cols-1 gap-5">
+                        <CardPartido equipoLocal="Puebla" equipoVisitante="Puebla2" categoria="infantil" fecha="12 Mayo 2025" horario="15:00" ubicacion="Estadio Municipal"/>
 
-                    <CardPartido equipoLocal="Puebla" equipoVisitante="Puebla2" categoria="infantil" fecha="12 Mayo 2025" horario="15:00" ubicacion="Estadio Municipal"/>
+                        <CardPartido equipoLocal="Puebla" equipoVisitante="Puebla2" categoria="infantil" fecha="12 Mayo 2025" horario="15:00" ubicacion="Estadio Municipal"/>
 
-                    <CardPartido equipoLocal="Puebla" equipoVisitante="Puebla2" categoria="infantil" fecha="12 Mayo 2025" horario="15:00" ubicacion="Estadio Municipal"/>
+                        <CardPartido equipoLocal="Puebla" equipoVisitante="Puebla2" categoria="infantil" fecha="12 Mayo 2025" horario="15:00" ubicacion="Estadio Municipal"/>
 
-                    <CardPartido equipoLocal="Puebla" equipoVisitante="Puebla2" categoria="infantil" fecha="12 Mayo 2025" horario="15:00" ubicacion="Estadio Municipal"/>
+                        <CardPartido equipoLocal="Puebla" equipoVisitante="Puebla2" categoria="infantil" fecha="12 Mayo 2025" horario="15:00" ubicacion="Estadio Municipal"/>
+                    </div>
 
-                    <Link className="border block text-center bg-black text-white py-2 rounded-lg font-bold" to="/partidos">Ver más</Link>
+                    <Link className="border block text-center bg-black text-white py-2 rounded-lg font-bold mt-5" to="/partidos">Ver más</Link>
 
                 </section>
                 <section className="flex-1/3">

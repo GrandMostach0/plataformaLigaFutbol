@@ -1,7 +1,7 @@
 import { Link } from "react-router"
 function CardPartido({categoria, equipoLocal, equipoVisitante, fecha, horario, ubicacion}){
     return(
-        <div className="border px-3 py-4 border-slate-400 rounded-lg my-5">
+        <div className="border px-3 py-4 border-slate-400 rounded-lg">
 
             <p className=" border border-slate-400 text-xs inline-block py-1 px-2 rounded-lg mb">{categoria}</p>
 
