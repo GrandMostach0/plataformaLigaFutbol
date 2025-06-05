@@ -27,7 +27,7 @@ function CardEquipo({categoria, nameEquipo, description, cantJugadores, ubicacio
                 <p>D: {cantPerdidas}</p>
             </div>
 
-            <Link to="/equipoInfo" className="block text-center rounded-lg bg-slate-400 text-white font-semibold mt-5">Ver Equipo</Link>
+            <Link to="/equipos/equipoInfo" className="block text-center rounded-lg bg-slate-400 text-white font-semibold mt-5">Ver Equipo</Link>
         </div>
     )
 }

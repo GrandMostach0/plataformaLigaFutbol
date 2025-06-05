@@ -6,9 +6,9 @@ import Ligas from './pages/Ligas/Ligas'
 import Error404 from './components/Error404'
 import Clasificacion from './pages/Clasificacion'
 import Equipos from './pages/Equipos/Equipos'
+import EquipoInformacion from './pages/Equipos/componentsEquipos/EquipoInformacion'
 import Inscripcion from './pages/Inscripcion/Inscripcion'
 function App() {
-
   return (
     <BrowserRouter>
       <Routes>
@@ -17,6 +17,7 @@ function App() {
           <Route path='/ligas' element={<Ligas />}/>
           <Route path='/clasificacion' element={<Clasificacion />}/>
           <Route path='/equipos' element={<Equipos />}/>
+          <Route path="/equipos/equipoInfo" element={<EquipoInformacion />}/>
           <Route path="/inscripcion" element={<Inscripcion />}/>
           <Route path='*' element={<Error404 />}/>
         </Route>
