@@ -32,10 +32,10 @@ function EquipoInformacion(){
 
     return(
         <>
-        <div className="border bg-gray-300 flex items-center px-10 h-[35vh]">
-            <img src="" alt="portada imagen" className="h-[60%] w-[12%] border-none rounded-lg bg-black object-cover"/>
+        <div className="border bg-gray-300 flex items-center px-10 h-[45vh]">
+            <img src="" alt="portada imagen" className="h-[60%] w-[15%] border-none rounded-lg bg-black object-cover"/>
             <div className="ml-5">
-                <h1 className="font-bold text-4xl">TOROS FC</h1>
+                <h1 className="font-bold text-5xl">TOROS FC</h1>
                 <p className="text-lg mt-1">Liga sub 15</p>
             </div>
         </div>

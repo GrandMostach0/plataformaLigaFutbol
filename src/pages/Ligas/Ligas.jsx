@@ -89,7 +89,7 @@ function Ligas() {
         <div className="my-5 inline-block px-2 py-1 bg-slate-200 rounded-lg">
           {listaLigasCategorias.map((liga, index) => (
             <p
-              className={`inline-block mx-5 px-4 py-1 rounded-lg text-sm cursor-pointer ${
+              className={`inline-block mx-5 px-4 py-1 rounded-lg text-sm cursor-pointer${
                 opcionSeleccionada === liga ? "bg-white" : ""
               }`}
               onClick={() => setOpcionSeleccionada(liga)}
@@ -103,7 +103,7 @@ function Ligas() {
         {opcionSeleccionada === "Todas" ? (
           Object.entries(listaLigas).map(([categoria, ligas]) => (
             <div key={categoria} className="mb-8">
-              <h2 className="title2 mb-2">{categoria}</h2>
+              <h2 className="title2 mb-2 px-5 text-left">{categoria}</h2>
               <div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
                 {ligas.map((liga) => (
                   <CardLiga
@@ -119,7 +119,7 @@ function Ligas() {
           ))
         ) : (
           <div className="mb-8">
-            <h2 className="title2 mb-2">{opcionSeleccionada}</h2>
+            <h2 className="title2 mb-2 px-5 text-left">{opcionSeleccionada}</h2>
             <div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(450px,1fr))]">
               {(listaLigas[opcionSeleccionada] || []).map((liga) => (
                 <CardLiga
