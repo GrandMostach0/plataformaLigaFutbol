@@ -3,7 +3,7 @@ function CardPartido({categoria, equipoLocal, equipoVisitante, fecha, horario, u
     return(
         <div className="border px-3 py-4 border-slate-400 rounded-lg my-5">
 
-            <p className=" border text-xs inline-block py-1 px-2 rounded-lg mb">{categoria}</p>
+            <p className=" border border-slate-400 text-xs inline-block py-1 px-2 rounded-lg mb">{categoria}</p>
 
             <div className="my-2 flex items-center justify-between">
                 <div className="flex items-center">
@@ -20,7 +20,7 @@ function CardPartido({categoria, equipoLocal, equipoVisitante, fecha, horario, u
             <p className="text-sm text-slate-700">{fecha} • {horario}</p>
             <p className="text-sm text-slate-700">{ubicacion}</p>
 
-            <Link className="border block text-center py-2 text-sm my-2 rounded-lg" to="/partido">Detalles del Partido</Link>
+            <Link className="border border-slate-400 block text-center py-2 text-sm my-2 rounded-lg" to="/partido">Detalles del Partido</Link>
         </div>
     )
 }

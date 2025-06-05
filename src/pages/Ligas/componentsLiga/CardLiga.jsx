@@ -1,4 +1,3 @@
-import Equipos from "../../Equipos";
 import { Link } from "react-router";
 
 function CardLiga({nombreLiga,estado, temporada, cantidadEquipos}){

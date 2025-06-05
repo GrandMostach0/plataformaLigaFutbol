@@ -58,7 +58,7 @@ function Home(){
 
                     <CardPartido equipoLocal="Puebla" equipoVisitante="Puebla2" categoria="infantil" fecha="12 Mayo 2025" horario="15:00" ubicacion="Estadio Municipal"/>
 
-                    <Link className="border block text-center bg-black text-white py-2 rounded-lg font-bold">Ver más</Link>
+                    <Link className="border block text-center bg-black text-white py-2 rounded-lg font-bold" to="/partidos">Ver más</Link>
 
                 </section>
                 <section className="flex-1/3">

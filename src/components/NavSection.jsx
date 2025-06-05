@@ -6,7 +6,7 @@ function NavSection(){
         <header className="flex items-center justify-between py-4 px-10 sticky top-0 w-[100%] bg-white">
             <div className="flex items-center">
                 <Link to="/" className="font-bold text-2xl">Liga de Fútbol</Link>
-                <nav className="ml-10 text-base">
+                <nav className="ml-10 text-sm font-semibold text-slate-700">
                     <Link className="item-Nav" to="/ligas">Ligas</Link>
                     <Link className="item-Nav" to="/equipos">Equipos</Link>
                     <Link className="item-Nav" to="/partidos">Partidos</Link>
