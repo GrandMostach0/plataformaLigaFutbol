@@ -6,6 +6,8 @@ import Ligas from './pages/Ligas/Ligas'
 import Equipos from './pages/Equipos/Equipos'
 import EquipoInformacion from './pages/Equipos/componentsEquipos/EquipoInformacion'
 import Partidos from './pages/Partidos/Partidos'
+import PartidoDetalles from './pages/Partidos/PartidoDetalles'
+
 import Clasificacion from './pages/Clasificacion'
 import Inscripcion from './pages/Inscripcion/Inscripcion'
 import Error404 from './components/Error404'
@@ -22,6 +24,8 @@ function App() {
 
           <Route path='/clasificacion' element={<Clasificacion />}/>
           <Route path='/partidos' element={<Partidos />}/>
+          <Route path='/partidos/partidoDetalle' element={<PartidoDetalles />} />
+
           <Route path="/inscripcion" element={<Inscripcion />}/>
           <Route path='*' element={<Error404 />}/>
         </Route>

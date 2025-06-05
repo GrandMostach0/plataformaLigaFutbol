@@ -9,7 +9,7 @@ function TablaEstadisticas(){
                     <th>Edad</th>
                     <th>Goles</th>
                     <th>Asist.</th>
-                    <th title="Tarjetas Amarillas">TA</th>
+                    <th className="cursor-help" title="Tarjetas Amarillas">TA</th>
                     <th title="Tarjetas Rojas">TR</th>
                 </tr>
             </thead>

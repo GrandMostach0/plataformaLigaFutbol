@@ -20,7 +20,7 @@ function CardPartido({categoria, equipoLocal, equipoVisitante, fecha, horario, u
             <p className="text-sm text-slate-700">{fecha} • {horario}</p>
             <p className="text-sm text-slate-700">{ubicacion}</p>
 
-            <Link className="border border-slate-400 block text-center py-2 text-sm my-2 rounded-lg" to="/partido">Detalles del Partido</Link>
+            <Link className="border border-slate-400 block text-center py-2 text-sm my-2 rounded-lg" to="/partidos/partidoDetalle">Detalles del Partido</Link>
         </div>
     )
 }
