@@ -2,7 +2,7 @@
 
 const FormularioInscripcion = () => {
     return(
-        <div className="text-left py-2">
+        <div className="border py-3 px-4 text-left border-slate-300 rounded-lg">
             <h1 className="text-lg font-semibold">Informacion del Equipo</h1>
             <p className="text-slate-600 mb-2">Proporciona los datos básicos de tu equipo para la inscripción.</p>
             <form action="">
