@@ -2,6 +2,7 @@ import { useState } from "react";
 import CardEstadisticas from "../Equipos/componentsEquipos/CardEstadisticas";
 import TablaPosicionEquipos from "../../components/TablaPosicionEquipos";
 import ListaEquipos from "./componentsLiga/listaEquipos";
+import ListaCalendario from "./componentsLiga/ListaCalendario";
 function LigaDetalle() {
 
     const [opSeleccionado, setOpSeleccionado] = useState(0);
@@ -14,7 +15,7 @@ function LigaDetalle() {
             case 1:
                 return <ListaEquipos />
             case 2:
-                return <p>HOLA</p>
+                return <ListaCalendario />
             default:
                 return null
         }
