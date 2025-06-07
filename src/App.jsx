@@ -7,8 +7,7 @@ import Equipos from './pages/Equipos/Equipos'
 import EquipoInformacion from './pages/Equipos/componentsEquipos/EquipoInformacion'
 import Partidos from './pages/Partidos/Partidos'
 import PartidoDetalles from './pages/Partidos/PartidoDetalles'
-
-import Clasificacion from './pages/Clasificacion'
+import Clasificacion from './pages/Clasificacion/Clasificacion'
 import Inscripcion from './pages/Inscripcion/Inscripcion'
 import Error404 from './components/Error404'
 

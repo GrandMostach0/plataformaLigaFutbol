@@ -4,7 +4,7 @@ function PartidoDetalles(){
         <>
         <div className="flex items-center">
             <Link className="px-3 mx-2" to="/partidos">&larr; Volver a partidos</Link>
-            <p className="border border-gray-300 text-sm px-3 rounded-lg mx-1">Jornada 9</p>
+            <p className="border border-gray-300 rounded-lg text-sm px-3 mx-1">Jornada 9</p>
             <p className="bg-green-200 text-green-900 font-semibold text-sm px-3 rounded-lg mx-1 cursor-default">En Curso</p>
             <p className="bg-blue-200 text-blue-900 font-semibold text-sm px-3 rounded-lg mx-1 cursor-default">Programado</p>
             <p className="bg-yellow-200 text-yellow-900 font-semibold text-sm px-3 rounded-lg mx-1 cursor-default">Pendiente</p>
@@ -12,7 +12,7 @@ function PartidoDetalles(){
         </div>
         
 
-        <section className="border text-center py-5 px-10 my-5 rounded-lg border-slate-300">
+        <section className="border rounded-lg border-slate-300 text-center py-5 px-10 my-5 ">
             <h1 className="font-bold text-4xl mb-2">Toros FC vs Escorpiones FC</h1>
             <p className="text-lg text-gray-600 font-semibold">Liga Sub 15</p>
 
@@ -45,7 +45,7 @@ function PartidoDetalles(){
             </div>
         </section>
 
-        <div className="w-[50%] m-auto">
+        <div className="w-[50%] m-auto hidden">
             <h2 className="font-bold text-2xl text-center">Informacion del Partido</h2>
             <br />
             <div className="grid grid-cols-2">
