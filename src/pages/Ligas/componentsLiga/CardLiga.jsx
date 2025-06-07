@@ -14,7 +14,7 @@ function CardLiga({nombreLiga,estado, temporada, cantidadEquipos}){
 
                 <p className="text-slate-600">Temporada: {temporada || 'Sin definir'}</p>
                 <p className="text-slate-600">Equipos: {cantidadEquipos || 0}</p>
-                <Link to="/liga" className="block border text-center py-1 rounded-lg text-sm my-3 bg-black text-white">Ver Liga</Link>
+                <Link to="/ligas/Detalle" className="block border text-center py-1 rounded-lg text-sm my-3 bg-black text-white">Ver Liga</Link>
             </div>
         </div>
     )

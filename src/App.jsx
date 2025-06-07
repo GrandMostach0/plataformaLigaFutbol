@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import Layout from './components/Layout'
 import Home from './pages/Home/Home'
 import Ligas from './pages/Ligas/Ligas'
+import LigaDetalle from './pages/Ligas/LigaDetalle'
 import Equipos from './pages/Equipos/Equipos'
 import EquipoInformacion from './pages/Equipos/componentsEquipos/EquipoInformacion'
 import Partidos from './pages/Partidos/Partidos'
@@ -18,6 +19,7 @@ function App() {
         <Route element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path='/ligas' element={<Ligas />}/>
+          <Route path='/ligas/Detalle' element={<LigaDetalle />}/>
           <Route path='/equipos' element={<Equipos />}/>
           <Route path="/equipos/equipoInfo" element={<EquipoInformacion />}/>
 
